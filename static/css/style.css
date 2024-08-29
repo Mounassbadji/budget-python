@@ -1,0 +1,169 @@
+.grid {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.div {
+  text-align: center;
+  margin-top: O;
+}
+.gestiondubudget {
+  color: #0C5E69;
+  padding: 5%;
+  height: 5%;
+  margin-top: 0;
+  margin: 1px;
+}
+
+.imagedubudget {
+  height: 192px;
+  width: 311px;
+  margin-bottom: -10%;
+}
+.blockBudget {
+  border: 1px solid #e6e6e6;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Budget {
+  background-color: #0C5E69;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  padding: 10px;
+}
+.monMontant {
+  padding: 10px;
+  text-align: center;
+}
+
+.listedepenses {
+  margin-left: -0%;
+  height: 20px;
+  color:  #D1C000;
+  font-size: 25px;
+  padding: -10px;
+  margin-top: 100px;
+}
+
+.blockDepenses {
+  border: 1px solid #E6E6E6;
+  width: 200px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Dépenses {
+  color: white;
+  padding: 2px;
+  background-color: #0C5E69;
+  ;
+  padding: 10px;
+ 
+}
+
+.blockSolde {
+  border: 1px solid #E6E6E6;
+  width: 200px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Solde {
+  color: white;
+  padding: 10px;
+  background-color: #0C5E69;
+  
+}
+
+
+
+.tablesupprimer1 {
+  
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 15%;
+  text-align: center;
+  margin-right: 15%;
+  height: 10px;
+  border: 1px solid #E6E6E6
+}
+.tablesupprimer2 {
+
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 15%;
+  text-align: center;
+  margin-right: 15%;
+  height: 10px;
+  border: 1px solid #E6E6E6
+ 
+  
+  
+}
+.tablesupprimer3 {
+  
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 15%;
+  text-align: center;
+  margin-right: 15%;
+  height: 10px;
+  border: 1px solid #E6E6E6
+  
+}
+
+.tableAjouter {
+  color:  #D1C000;
+  padding: 20px;
+  
+}
+.colorHeadTable {
+  background-color: #0C5E69;
+  color: white;
+}
+.tableHead colorHeadTable
+
+/*--------------------------------------------2ieme page -------------------------------------------------------*/
+
+.AjouterDepense {
+  text-align: center;
+  color:  #0C5E69;
+  margin-bottom: 5%;
+
+}
+.text-custom{
+  color: #D1C000;
+  text-decoration: none;
+}
+.TITRE {
+  color: #0C5E69;
+
+}
+.column {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  
+}
+.container {
+  padding: 25%;
+  margin-top: -25%;
+  padding-bottom: 5%;
+
+}
+.column1{
+  text-align: center;
+  background-color: #0C5E69;
+  color: white;
+  padding: 2%;
+  width: 80%;
+}
+
+.mb-0-me-2 {
+  color: #D1C000;
+}

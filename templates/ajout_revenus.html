@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Revenus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .mb-4 {
+            justify-content: center;
+            text-align: center;
+            margin-top: 20%;
+
+        }
+        .div {
+            text-align: center;
+            justify-content: center;
+            margin: 20px;
+            
+        }
+        .gestiondubudget {
+            margin-top: 10px;
+            margin-top: -60px;
+        }
+        .mb-4 {
+            color: #0C5E69;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-control {
+            margin-bottom: 15px;
+        }
+        .btn-custom {
+            background-color:#0C5E69;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #0C5E69;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="div">
+        <img class="imagedubudget" src="static/image/Group 5.png" alt="imagedubuget">
+        <p class="gestiondubudget">Gestion du budget</p>
+    </div>
+    <div class="container mt-4">
+        <p class="mb-4">AJOUTER REVENUS</P>
+        <form method="post" action="{{ url_for('ajout_revenus') }}">
+            <div class="form-group">
+                <label for="value">TITRE</label>
+                <input type="str" class="form-control" id="description" name="description" placeholder="SALAIRE" required>
+            </div>
+            <div class="form-group">
+                <label for="description">MONTANT</label>
+                <input type="text" class="form-control" id="montant" name="montant" placeholder="Entrez le montant" required>
+            </div>
+            <button type="submit" class="btn btn-custom">VALIDER</button>
+        </form>
+        <a class="mt-3 d-block" href="{{ url_for('home') }}">Retour à l'accueil</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
