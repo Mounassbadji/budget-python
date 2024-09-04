@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Montants</title>
+</head>
+<body>
+    <h1>Liste des Montants du Budget</h1>
+
+    {% if montants %}
+        <table>
+            <tr>
+                <th>TITRE</th>
+                <th>MONTANT</th>
+                <th>ACTIONS</th>
+            </tr>
+            {% for montant in montants %}
+            <tr>
+                <td>{{ montant.id }}</td>
+                <td>{{ montant.name }}</td>
+                <td>
+                    <a href="{{ url_for('modifier', id=montant.id) }}">Modifier</a>
+                    <form action="{{ url_for('delete', id=montant.id) }}" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Supprimer</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+    <a href="{{ url_for('ajouter') }}">Ajouter un nouveau montant</a>
+</body>
+</html>
